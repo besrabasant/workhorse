@@ -1,0 +1,28 @@
+{
+    "name": "rogue-one/workhorse",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basant Besra",
+            "email": "besrabasant@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/container": "^8.26",
+        "illuminate/config": "^8.26",
+        "illuminate/support": "^8.26",
+        "illuminate/filesystem": "^8.26",
+        "illuminate/events": "^8.26",
+        "illuminate/log": "^8.26",
+        "composer/composer": "^2.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Workhorse\\": "src/"
+        },
+        "files": [
+            "workhorse.php"
+        ]
+    }
+}
