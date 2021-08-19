@@ -2,6 +2,7 @@
   "name": "rogue-one/workhorse",
   "type": "library",
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Basant Besra",
