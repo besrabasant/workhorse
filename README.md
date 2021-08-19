@@ -6,7 +6,7 @@
 
 Copy **example-plugin** directory to **mu-plugins** or **plugins** directory.
 
-Make necessary customizations according to your needs. 
+Make necessary customizations to the boilerplate according to your needs. 
 
 #### Implement in the plugin root file (Eg: *`plugin-root.php`*).
 
@@ -20,3 +20,7 @@ if (!defined('ABSPATH')) {
 Bootloader::register(__FILE__, \PalluaClinic\PalluaClinicCore::PLUGIN_NAME);
 
 ```
+
+## TODO
+
+- [ ] Implement command to generate plugin boilerplate.
