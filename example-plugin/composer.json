@@ -1,0 +1,17 @@
+{
+  "name": "workhorse/example-plugin",
+  "description": "Workhorse Example plugin.",
+  "type": "wordpress-muplugin",
+  "authors": [
+    {
+      "name": "Basant Besra",
+      "email": "besrabasant@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "ExamplePlugin\\": "./app"
+    }
+  }
+}
