@@ -2,7 +2,7 @@
   "name": "rogue-one/workhorse",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Basant Besra",
@@ -10,15 +10,15 @@
     }
   ],
   "require": {
-    "illuminate/container": "^8.26",
-    "illuminate/config": "^8.26",
-    "illuminate/support": "^8.26",
-    "illuminate/filesystem": "^8.26",
-    "illuminate/events": "^8.26",
-    "illuminate/log": "^8.26",
-    "composer/composer": "^2.1.2",
+    "illuminate/container": "^8.55",
+    "illuminate/config": "^8.55",
+    "illuminate/support": "^8.55",
+    "illuminate/filesystem": "^8.55",
+    "illuminate/events": "^8.55",
+    "illuminate/log": "^8.55",
+    "composer/composer": "^2.1.5",
     "johnbillion/extended-cpts": "^4.5",
-    "stoutlogic/acf-builder": "^1.10",
+    "stoutlogic/acf-builder": "^1.11",
     "samrap/acf-fluent": "^0.4.0"
   },
   "autoload": {

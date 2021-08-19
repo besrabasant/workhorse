@@ -1,5 +1,7 @@
 # WP Workhorse
 
+**Note:-** This package is dependent on the WordPress polylang plugin to provide multilingual support.
+
 ## Usage
 
 #### Implement Plugin directory structure.
