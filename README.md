@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-Bootloader::register(__FILE__, \PalluaClinic\PalluaClinicCore::PLUGIN_NAME);
+Bootloader::register(__FILE__, \ExamplePlugin\ExamplePlugin::PLUGIN_NAME);
 
 ```
 
