@@ -24,6 +24,18 @@ abstract class AcfFieldGroup {
 
 	protected $label_placement = "left";
 
+	/**
+	 * Available options: "acf_after_title" | "normal" | "side"
+	 *
+	 * @var string
+	 */
+	protected $position = "normal";
+
+	/**
+	 * @var int
+	 */
+	protected $menu_order = 0;
+
 	protected $text_domain;
 
 	/** @var array $translatables */
@@ -58,6 +70,8 @@ abstract class AcfFieldGroup {
 			'style'           => $this->style,
 			'label_placement' => $this->label_placement,
 			'hide_on_screen'  => $this->hideOnScreen(),
+			'position'        => $this->position,
+			'menu_order'      => $this->menu_order
 		] );
 	}
 
@@ -121,7 +135,7 @@ abstract class AcfFieldGroup {
 
 				$this->configure( $this->fieldsBuilder );
 
-				if ( $this instanceof CanSetLocationExplicitly) {
+				if ( $this instanceof CanSetLocationExplicitly ) {
 					$this->setLocation( $this->fieldsBuilder );
 				}
 
